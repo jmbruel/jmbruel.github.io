@@ -1,6 +1,7 @@
 name: stages
 title: My web site
 org: ACDC
+myEmail: bruel@irit.fr
 base_url: ''
 profiles:
   production:
