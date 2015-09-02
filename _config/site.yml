@@ -1,7 +1,8 @@
-name: Project Name
-title: Baked with Awestruct
-org: Organization
+name: stages
+title: My web site
+org: Associatino Carpe Diem Consulting
 base_url: ''
+myEmail: jbruel@gmail.com
 profiles:
   production:
     base_url: http://jmbruel.github.io/demosite
