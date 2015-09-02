@@ -2,7 +2,6 @@ name: stages
 title: My web site
 org: ACDC
 base_url: ''
-myEmail: jbruel@gmail.com
 profiles:
   production:
     base_url: http://jmbruel.github.io/demosite
