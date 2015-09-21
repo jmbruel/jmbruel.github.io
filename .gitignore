@@ -1,5 +1,5 @@
 /.awestruct/
-/.bundle/
+/.ruby-*
 /.sass-cache/
 /_site/
 /_tmp/
