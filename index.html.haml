@@ -38,9 +38,3 @@ layout: base
     %p The core concept of Awestruct is that of structures, specifically Ruby OpenStruct structures. The struct aspect allows arbitrary, schema-less data to be associated with a specific page or the entire site.
     %p
       %a.button{:href=>'http://awestruct.org'} View details &raquo;
-
-.row
-  .large-12.columns.posts
-    - page.publis.each do |post|
-      =partial 'post.html.haml', :post => post, :listing => true
-    =partial 'pagination.html.haml', :paginator => page.publis
