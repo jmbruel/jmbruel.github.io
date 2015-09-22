@@ -5,13 +5,13 @@ myEmail: bruel@irit.fr
 base_url: ''
 profiles:
   production:
-    base_url: http://jmbruel.github.io/demosite
+    base_url: http://jmbruel.github.io
     deploy:
       host: github_pages
       # use gh-branch for repositories other than <username>.github.io
-      branch: gh-pages
+      # branch: gh-pages
       # use master branch for <username>.github.io repository
-      #branch: master
+      branch: master
 interpolate: false
 haml:
   :ugly: true
