@@ -1,6 +1,6 @@
 require 'zurb-foundation'
 require 'myTime'
-require './stylesheets/_themes/lib/functions.rb'
+#require './stylesheets/_themes/lib/functions.rb'
 
 
 Awestruct::Extensions::Pipeline.new do

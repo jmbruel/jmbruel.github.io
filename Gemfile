@@ -33,7 +33,6 @@ gem 'compass', '>= 1.0.1'
 gem 'zurb-foundation', '>= 4.3.2'
 gem 'asciidoctor', '>= 0.1.1'                           # If using AsciiDoc syntax, need 0.1.1 for Header support
 gem 'jekyll'
-gem 'asciidoctor'
 #gem 'github-pages'
 
 # FIXME
