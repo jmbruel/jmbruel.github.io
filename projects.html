@@ -1,11 +1,81 @@
----
-layout: base
-title: Projects
----
-<% fullmde = image_tag("logo-fullmde.png", :alt => "[Logo FullMDE]", :class => "logo") %>
-<% socket = image_tag("logo-socket.png", :alt => "[Logo SocKET]", :class => "logo") %>
-<% teresa = image_tag("logo-teresa.png", :alt => "[Logo Teresa]", :class => "logo") %>
-<% seebook = image_tag("logo-seebook.png", :alt => "[Logo GDR]", :class => "logo") %>
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>My web site</title>
+<!--%link{:rel=>'stylesheet', :href=>"http://jmbruel.github.io/stylesheets/normalize.css"}-->
+<link href="http://jmbruel.github.io/stylesheets/foundation.css" rel="stylesheet">
+<link href="http://jmbruel.github.io/stylesheets/app.css" rel="stylesheet">
+<script src="http://jmbruel.github.io/javascripts/vendor/custom.modernizr.js"></script>
+<link href="http://jmbruel.github.io/humans.txt" rel="author" type="text/plain">
+<link href="/feed.xml" rel="alternate" type="application/atom+xml">
+</head>
+<body class="antialiased">
+<nav class="top-bar">
+<ul class="title-area">
+<li class="name">
+<h1>
+<a href="/">Jean-Michel Bruel</a>
+</h1>
+</li>
+<li class="toggle-topbar menu-icon">
+<a href="#"><span></span></a>
+</li>
+</ul>
+<section class="top-bar-section">
+<ul class="right">
+<li class="divider">
+<li>
+<a href="http://jmbruel.github.io/">Home</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/publis.html">Publications</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/talks.html">Talks</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/projects.html">Projects</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/phds.html">Ph.Ds</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/teaching.html">Teaching</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/scientific.html">Animation</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/professional.html">Professional</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/bio.html">Biography</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/fun.html">Fun</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="/about.html">About</a>
+</li>
+</li>
+</ul>
+</section>
+</nav>
+<div class="row" id="content">
+<div class="large-12 columns">
 
 <!--=========================================================-->
 <h2>Ongoing projects</h2>
@@ -72,3 +142,35 @@ Modeling Language</a>. <em>Three years project funded by the French National Sci
   <a href="http://www.univ-tlse2.fr">University of Toulouse Le Mirail</a> (2010)</em> </li>
 </ul>
 </div>
+
+</div>
+</div>
+<footer class="row" style="max-width: 100%">
+<hr>
+<div class="large-8 columns">
+<p style="margin-bottom: .75em">
+&copy; ACDC, <a href="mailto:bruel@irit.fr">JMB</a>, 2015-09-22, 
+Built on <a href='http://foundation.zurb.com'>Foundation</a>. Baked by <a href='http://awestruct.org'>Awestruct</a>.
+</p>
+</div>
+<div class="large-4 columns">
+<ul class="inline-list right">
+<li>
+<a href="http://jmbruel.github.io/">Home</a>
+</li>
+<li>
+<a href="http://jmbruel.github.io/contact.html">Contact</a>
+</li>
+</ul>
+</div>
+</footer>
+<script>
+document.write('<script src=' + ('__proto__' in {} ? 'http://jmbruel.github.io/javascripts/vendor/zepto' : 'http://jmbruel.github.io/javascripts/vendor/jquery') + '.js><\/script>')
+</script>
+<script src="http://jmbruel.github.io/javascripts/foundation/foundation.js"></script>
+<script src="http://jmbruel.github.io/javascripts/foundation/foundation.topbar.js"></script>
+<script>
+$(document).foundation()
+</script>
+</body>
+</html>

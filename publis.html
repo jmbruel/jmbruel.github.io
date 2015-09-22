@@ -1,17 +1,87 @@
----
-layout: base
-title: Publis
----
-<% seebook = image_tag("SEEBOOK2013.jpg", :alt => "[SEEBOOK]", :height => "200") %>
-<% wileybook = image_tag("sysmlbook-wiley.jpg", :alt => "[WileyBOOK]", :height => "200") %>
-<% prfcbook = image_tag("prfcbook.jpg", :alt => "[PRFC]", :height => "200") %>
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>My web site</title>
+<!--%link{:rel=>'stylesheet', :href=>"http://jmbruel.github.io/stylesheets/normalize.css"}-->
+<link href="http://jmbruel.github.io/stylesheets/foundation.css" rel="stylesheet">
+<link href="http://jmbruel.github.io/stylesheets/app.css" rel="stylesheet">
+<script src="http://jmbruel.github.io/javascripts/vendor/custom.modernizr.js"></script>
+<link href="http://jmbruel.github.io/humans.txt" rel="author" type="text/plain">
+<link href="/feed.xml" rel="alternate" type="application/atom+xml">
+</head>
+<body class="antialiased">
+<nav class="top-bar">
+<ul class="title-area">
+<li class="name">
+<h1>
+<a href="/">Jean-Michel Bruel</a>
+</h1>
+</li>
+<li class="toggle-topbar menu-icon">
+<a href="#"><span></span></a>
+</li>
+</ul>
+<section class="top-bar-section">
+<ul class="right">
+<li class="divider">
+<li>
+<a href="http://jmbruel.github.io/">Home</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/publis.html">Publications</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/talks.html">Talks</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/projects.html">Projects</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/phds.html">Ph.Ds</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/teaching.html">Teaching</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/scientific.html">Animation</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/professional.html">Professional</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/bio.html">Biography</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="http://jmbruel.github.io/fun.html">Fun</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="/about.html">About</a>
+</li>
+</li>
+</ul>
+</section>
+</nav>
+<div class="row" id="content">
+<div class="large-12 columns">
 
-<%# TODO: Faire une macro avec DOI et PDF systématique %>
 
 <h1>Publications</h1>
 
 <p>You can access to the <a href="http://www.irit.fr/-Publications-?code=528&amp;nom=Bruel%20Jean-Michel">official
-list</a> from the lab (up to date, but only related to <%= link_to "IRIT", iritUrl  %>). You can access to
+list</a> from the lab (up to date, but only related to ). You can access to
 the <a href="https://www.researchgate.net/profile/Jean-Michel_Bruel2/publications/">ResearchGate</a> page.  You can also
 access my <a href="http://www.irit.fr/~Jean-Michel.Bruel/HdRBruel2006/hdr2006.pdf">Habilitation</a>
 or my <a href="http://jmbhome.heroku.com/cv.pdf">CV</a>.
@@ -85,6 +155,38 @@ or my <a href="http://jmbhome.heroku.com/cv.pdf">CV</a>.
 
 <p>Last book participation (chapters, preface, ...):
 <br>
-<a href="http://editions.lavoisier.fr/notice.asp?ouvrage=2708717"><%= seebook %></a>
-<a href="http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1118569717.html"><%= wileybook %></a>
-<a href="http://www.editions-eyrolles.com/Livre/9782212136418/"><%= prfcbook %></a>
+<a href="http://editions.lavoisier.fr/notice.asp?ouvrage=2708717"></a>
+<a href="http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1118569717.html"></a>
+<a href="http://www.editions-eyrolles.com/Livre/9782212136418/"></a>
+
+</div>
+</div>
+<footer class="row" style="max-width: 100%">
+<hr>
+<div class="large-8 columns">
+<p style="margin-bottom: .75em">
+&copy; ACDC, <a href="mailto:bruel@irit.fr">JMB</a>, 2015-09-22, 
+Built on <a href='http://foundation.zurb.com'>Foundation</a>. Baked by <a href='http://awestruct.org'>Awestruct</a>.
+</p>
+</div>
+<div class="large-4 columns">
+<ul class="inline-list right">
+<li>
+<a href="http://jmbruel.github.io/">Home</a>
+</li>
+<li>
+<a href="http://jmbruel.github.io/contact.html">Contact</a>
+</li>
+</ul>
+</div>
+</footer>
+<script>
+document.write('<script src=' + ('__proto__' in {} ? 'http://jmbruel.github.io/javascripts/vendor/zepto' : 'http://jmbruel.github.io/javascripts/vendor/jquery') + '.js><\/script>')
+</script>
+<script src="http://jmbruel.github.io/javascripts/foundation/foundation.js"></script>
+<script src="http://jmbruel.github.io/javascripts/foundation/foundation.topbar.js"></script>
+<script>
+$(document).foundation()
+</script>
+</body>
+</html>
