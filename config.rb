@@ -4,10 +4,10 @@ project_type = :stand_alone
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "css"
+css_dir = "stylesheets"
 sass_dir = "scss"
 images_dir = "images"
-javascripts_dir = "js"
+javascripts_dir = "javascript"
 fonts_dir = "fonts"
 
 # You can select your preferred output style here (can be overridden via the command line):
