@@ -1,0 +1,15 @@
+= Home
+:awestruct-layout: base
+
+.row
+image::photo-cv3.jpg[width=30%]
+
+== Jean-Michel Bruel
+
+- Researcher at IRIT (CNRS Research Laboratory UMR 5505)
+- Professor at University of Toulouse, France
+- Mainly teaching at IUT de Blagnac
+
+[WARNING]
+This is my brand new web site, so if you found
+any error from the previous content you used to find, please let me know.
