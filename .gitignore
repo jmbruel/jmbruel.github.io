@@ -1,0 +1,10 @@
+/.awestruct/
+/.ruby-*
+/.sass-cache/
+/_site/
+/_tmp/
+/Gemfile.lock
+<<<<<<< HEAD
+=======
+/_site
+>>>>>>> c420a301c2ba35375d091b721c00cd0abd193fcb
