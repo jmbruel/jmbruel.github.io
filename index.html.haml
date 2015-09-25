@@ -1,0 +1,57 @@
+---
+layout: base
+---
+.row
+  .large-12.columns
+    .large-2.columns
+      %img{:src=>"images/photo-cv3.jpg", :width=>"80%"}
+    .large-10.columns
+      %h2 Jean-Michel Bruel
+      %ul
+        %li Researcher at IRIT (CNRS Research Laboratory UMR 5505)
+        %li Professor at University of Toulouse, France
+        %li Mainly teaching at IUT de Blagnac
+
+    %hr
+
+.row
+  .large-12.columns
+    .panel
+      %h3 Welcome to my web site
+      %p This site is brand new so if you found any error from the previous content you used to find, please let me know.
+
+.row
+  .large-4.columns
+    %h3 Research activities
+    %ul
+      %li
+        %a{:href=>"publis.html"} Publications and
+        %a{:href=>'talks.html'} Talks
+      %li
+        %a{:href=>"projects.html"} Projects andcollaborations
+      %li
+        %a{:href=>"phds.html"} Ph.D. students
+      %li
+        %a{:href=>"scientific.html"} Scientific activities
+
+  .large-4.columns
+    %h3 Teaching activities
+    %ul
+      %li
+        M.Sc. level (Master, ED)
+      %li
+        B.Sc. level (Bac+2, DUT, Licence Pro)
+
+  .large-4.columns
+    %h3 Ongoing/Recent events
+    %ul
+      %li
+        %a{:href=>"http://www.modelsconference.org"} MODELS'2015
+      %li
+        %a{:href=>"http://devlog.cnrs.fr/idm2015"} IDM'2015
+      %li
+        %a{:href=>"http://orap.irisa.fr/?page_id=36"} Forum ORAP: "L’évolution des technologies autour du HPC"
+
+.row
+  .col-md-5
+    = partial('talks.html.haml', :outputPage => page)

@@ -1,0 +1,23 @@
+.panel.panel-default
+  .panel-heading Upcoming events
+  .panel-body
+    %ul.list-unstyled
+      - for event in site.talks
+        %li(style="margin-bottom: 10px;")
+          .title
+            %a{:href => event.url}
+              - if !event.title.empty?
+                #{event.eventOrganization}: #{event.title}
+              - else
+                #{event.eventOrganization}
+          %div
+            #{event.location} - #{event.date.strftime('%a %-d %B %Y')}
+          - if !event.presenters.empty?
+            .small
+              by #{event.presenters}
+    .small.pull-right
+      %a{:href => "https://github.com/jmbruel/jmbruel.github.io/_config/talks.yml"}
+        Add event
+      #{'/'}
+      %a{:href => relative("/archive/talks.html", page.outputPage)}
+        Archive

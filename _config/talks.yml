@@ -1,0 +1,22 @@
+# THanks to https://github.com/droolsjbpm/optaplanner-website for the inspiration
+# To add a talk in the GitHub user interface, click on the Edit button at the top right which will submit a pull request.
+#
+# Available properties per talk
+#  eventId: Should be in format "yyyymmdd-suffix". The yyyymmdd is the date
+#  eventOrganization: Name of the conference or organizer
+#  location: Should be in format "city, country" or "city, state, country"
+#  date: Must be in format "yyyy-mm-dd". If multiple days cover our project, only note the first day
+#  title: (optional) Session title (without the conference or organizer name). If CFP not yet accepted, temporarily do not include.
+#  url: Link to the event page itself. If CFP not yet accepted, temporarily link the event organization itself.
+#  slides: a link to the slides themselves
+#
+# Order events by date.
+# Remove past events.
+
+- eventId: 20150925-seminar
+  eventOrganization: Seminar
+  location: Queen's University, Kingston, ON, Canada
+  date: 2015-09-25
+  title: "Model-Based Systems Engineering: An Overview of SysML"
+  url: http://research.cs.queensu.ca/calendar/bruel.pdf
+  slides: Queens2015.slides.html
