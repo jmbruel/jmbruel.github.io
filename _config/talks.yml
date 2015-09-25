@@ -14,9 +14,17 @@
 # Remove past events.
 
 - eventId: 20150925-seminar
-  eventOrganization: Seminar
+  eventOrganization: Invited talk
   location: Queen's University, Kingston, ON, Canada
   date: 2015-09-25
   title: "Model-Based Systems Engineering: An Overview of SysML"
   url: http://research.cs.queensu.ca/calendar/bruel.pdf
   slides: Queens2015.slides.html
+
+- eventId: 20150928-workshop
+  eventOrganization: Invited talk
+  location: MODELS'2015, Ottawa, ON, Canada
+  date: 2015-09-28
+  title: "The Papyrus4Education initiative"
+  url: http://jmbruel.github.io/talks
+  slides: MODELS2015.slides.html
