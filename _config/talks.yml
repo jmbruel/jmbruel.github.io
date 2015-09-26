@@ -13,6 +13,14 @@
 # Order events by date.
 # Remove past events.
 
+- eventId: 20150928-workshop
+  eventOrganization: Invited talk
+  location: MODELS'2015, Ottawa, ON, Canada
+  date: 2015-09-28
+  title: "The Papyrus4Education initiative"
+  url: http://jmbruel.github.io/talks
+  slides: MODELS2015.slides.html
+
 - eventId: 20150925-seminar
   eventOrganization: Invited talk
   location: Queen's University, Kingston, ON, Canada
@@ -21,10 +29,18 @@
   url: http://research.cs.queensu.ca/calendar/bruel.pdf
   slides: Queens2015.slides.html
 
-- eventId: 20150928-workshop
-  eventOrganization: Invited talk
-  location: MODELS'2015, Ottawa, ON, Canada
-  date: 2015-09-28
-  title: "The Papyrus4Education initiative"
-  url: http://jmbruel.github.io/talks
-  slides: MODELS2015.slides.html
+- eventId: 20141027-workshop
+  eventOrganization: Workshop
+  location: Journées IDM'2014, Toulouse, France
+  date: 2014-10-27
+  title: "De la modélisation scientifique à la modélisation de votre code"
+  url: http://devlog.cnrs.fr/idm2015
+  slides: http://jmbhome.herokuapp.com/teaching/idm2014/main.slides.html
+
+- eventId: 20141027-workshop
+  eventOrganization: Workshop
+  location: EclipseCon'2014, Toulouse, France
+  date: 2014-06-18
+  title: Papyrus4Education
+  url: https://www.eclipsecon.org/france2014/
+  slides: http://jmbhome.herokuapp.com/eclipsecon2014.slides.html

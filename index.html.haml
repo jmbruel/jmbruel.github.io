@@ -1,6 +1,11 @@
 ---
 layout: base
 ---
+/ Declare Variable
+- irit = '<a href="http://www.irit.fr">IRIT</a>'
+- uToulouse = '<a href="http://www.univ-toulouse.fr">University of Toulouse</a>'
+- iut = '<a href="http://www.iut-blagnac.fr">IUT Blagnac</a>'
+
 .row
   .large-12.columns
     .large-2.columns
@@ -8,9 +13,9 @@ layout: base
     .large-10.columns
       %h2 Jean-Michel Bruel
       %ul
-        %li Researcher at IRIT (CNRS Research Laboratory UMR 5505)
-        %li Professor at University of Toulouse, France
-        %li Mainly teaching at IUT de Blagnac
+        %li Researcher at #{irit} (CNRS Research Laboratory UMR 5505)
+        %li Professor at #{uToulouse}, France
+        %li Mainly teaching at #{iut}
 
     %hr
 
@@ -21,7 +26,7 @@ layout: base
       %p This site is brand new so if you found any error from the previous content you used to find, please let me know.
 
 .row
-  .large-4.columns
+  .large-6.columns
     %h3 Research activities
     %ul
       %li
@@ -34,7 +39,7 @@ layout: base
       %li
         %a{:href=>"scientific.html"} Scientific activities
 
-  .large-4.columns
+  .large-6.columns
     %h3 Teaching activities
     %ul
       %li
@@ -42,16 +47,8 @@ layout: base
       %li
         B.Sc. level (Bac+2, DUT, Licence Pro)
 
-  .large-4.columns
-    %h3 Ongoing/Recent events
-    %ul
-      %li
-        %a{:href=>"http://www.modelsconference.org"} MODELS'2015
-      %li
-        %a{:href=>"http://devlog.cnrs.fr/idm2015"} IDM'2015
-      %li
-        %a{:href=>"http://orap.irisa.fr/?page_id=36"} Forum ORAP: "L’évolution des technologies autour du HPC"
-
 .row
-  .col-md-5
+  .large-6.columns
     = partial('talks.html.haml', :outputPage => page)
+  .large-6.columns
+    = partial('events.html.haml', :outputPage => page)

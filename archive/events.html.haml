@@ -1,12 +1,12 @@
 ---
-title: Talks archive
-description: A list of all my past talks.
+title: Events archive
+description: A list of interesting events.
 layout: base
 priority: 0.1
 ---
 %h1 #{page.title}
 %ul
-  - for event in site.talks
+  - for event in site.events
     %li(style="margin-top: 10px;")
       %a{:href => event.url}
         - if !event.title.empty?

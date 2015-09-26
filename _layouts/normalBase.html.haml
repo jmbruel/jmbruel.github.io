@@ -1,8 +1,7 @@
----
-layout: base
----
 .row
-  .col-md-9
+  .large-12.columns
     ~ content
-  .col-md-3
+  .large-6.columns
     = partial('talks.html.haml', :outputPage => page)
+  .large-6.columns
+    = partial('events.html.haml', :outputPage => page)

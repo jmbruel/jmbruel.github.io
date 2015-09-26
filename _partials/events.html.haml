@@ -3,11 +3,11 @@ layout: base
 ---
 .panel.panel-default
   .panel-heading
-    %h4 Last Talks
+    %h4 Ongoing events
   .panel-body
     %ul.list-unstyled
-      - for event in site.talks
-        - if event.date >= Date.today - 365
+      - for event in site.events
+        - if event.date >= Date.today
           %li(style="margin-bottom: 10px;")
             .title
               %a{:href => event.url}
@@ -19,9 +19,11 @@ layout: base
               #{event.location}
             %div
               #{event.date.strftime('%a %-d %B %Y')}
-            - if !event.presenters.empty?
-              .small
-                by #{event.presenters}
+              #{'/'}
+              #{event.datefin.strftime('%a %-d %B %Y')}
     .small.pull-right
-      %a{:href => "archive/talks.html"}
-        (see all)
+      %a{:href => "https://github.com/jmbruel/jmbruel.github.io/blob/master/_config/events.yml"}
+        Add event
+      #{'/'}
+      %a{:href => "archive/events.html"}
+        Archive
