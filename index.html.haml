@@ -1,0 +1,54 @@
+---
+layout: base
+---
+/ Declare Variable
+- irit = '<a href="http://www.irit.fr">IRIT</a>'
+- uToulouse = '<a href="http://www.univ-toulouse.fr">University of Toulouse</a>'
+- iut = '<a href="http://www.iut-blagnac.fr">IUT Blagnac</a>'
+
+.row
+  .large-12.columns
+    .large-2.columns
+      %img{:src=>"images/photo-cv3.jpg", :width=>"80%"}
+    .large-10.columns
+      %h2 Jean-Michel Bruel
+      %ul
+        %li Researcher at #{irit} (CNRS Research Laboratory UMR 5505)
+        %li Professor at #{uToulouse}, France
+        %li Mainly teaching at #{iut}
+
+    %hr
+
+.row
+  .large-12.columns
+    .panel
+      %h3 Welcome to my web site
+      %p This site is brand new so if you found any error from the previous content you used to find, please let me know.
+
+.row
+  .large-6.columns
+    %h3 Research activities
+    %ul
+      %li
+        %a{:href=>"publis.html"} Publications and
+        %a{:href=>'talks.html'} Talks
+      %li
+        %a{:href=>"projects.html"} Projects andcollaborations
+      %li
+        %a{:href=>"phds.html"} Ph.D. students
+      %li
+        %a{:href=>"scientific.html"} Scientific activities
+
+  .large-6.columns
+    %h3 Teaching activities
+    %ul
+      %li
+        M.Sc. level (Master, ED)
+      %li
+        B.Sc. level (Bac+2, DUT, Licence Pro)
+
+.row
+  .large-6.columns
+    = partial('talks.html.haml', :outputPage => page)
+  .large-6.columns
+    = partial('events.html.haml', :outputPage => page)
