@@ -10,7 +10,7 @@ module MyHelpers
     "<a href=#{link}>#{text}</a>"
   end
   # usage <%= image_tag("logo-seebook.png", :alt => "[Logo GDR]", :class => "logo") %>
-  def image_tag(img, alt, classdef)
-    "<img link=#{link} alt=#{alt} class=#{classdef} />"
+  def image_tag(img, options)
+    "<img link=#{link} alt=#{options[:alt]} class=#{options[:class]} />"
   end
 end
