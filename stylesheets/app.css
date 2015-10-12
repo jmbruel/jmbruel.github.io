@@ -24,6 +24,10 @@ body > footer {
   color: $footer-font-color;
 }
 
+.logo img {
+  width: 200;
+}
+
 .panel {
   margin-bottom: 20px;
   border: 1px solid transparent;
