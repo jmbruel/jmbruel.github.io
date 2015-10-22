@@ -1,124 +1,108 @@
-<!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html lang="en-US">
 <head>
-<meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>My web site</title>
-<!--%link{:rel=>'stylesheet', :href=>"http://jmbruel.github.io/stylesheets/normalize.css"}-->
-<link href="http://jmbruel.github.io/stylesheets/foundation.css" rel="stylesheet">
-<link href="http://jmbruel.github.io/stylesheets/app.css" rel="stylesheet">
-<script src="http://jmbruel.github.io/javascripts/vendor/custom.modernizr.js"></script>
-<link href="http://jmbruel.github.io/humans.txt" rel="author" type="text/plain">
-<link href="/feed.xml" rel="alternate" type="application/atom+xml">
+  <meta charset="UTF-8">
+  <title>Basic Usage</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="generator" content="Jekyll v3.0.0.pre.beta10">
+  <link type="application/atom+xml" rel="alternate" href="http://jekyllrb.com/feed.xml" title="Jekyll • Simple, blog-aware, static sites" />
+  <link rel="alternate" type="application/atom+xml" title="Recent commits to Jekyll’s master branch" href="https://github.com/jekyll/jekyll/commits/master.atom">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic,900">
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <!--[if lt IE 9]>
+  <script src="/js/html5shiv.min.js"></script>
+  <script src="/js/respond.min.js"></script>
+  <![endif]-->
 </head>
-<body class="antialiased">
-<nav class="top-bar">
-<ul class="title-area">
-<li class="name">
-<h1>
-<a href="/">Jean-Michel Bruel</a>
-</h1>
-</li>
-<li class="toggle-topbar menu-icon">
-<a href="#"><span></span></a>
-</li>
-</ul>
-<section class="top-bar-section">
-<ul class="right">
-<li class="divider">
-<li>
-<a href="http://jmbruel.github.io/">Home</a>
-</li>
-<li class="divider"></li>
-<li>
-<a href="http://jmbruel.github.io/publis.html">Publications</a>
-</li>
-<li class="divider"></li>
-<li>
-<a href="http://jmbruel.github.io/talks.html">Talks</a>
-</li>
-<li class="divider"></li>
-<li>
-<a href="http://jmbruel.github.io/projects.html">Projects</a>
-</li>
-<li class="divider"></li>
-<li>
-<a href="http://jmbruel.github.io/phds.html">Ph.Ds</a>
-</li>
-<li class="divider"></li>
-<li>
-<a href="http://jmbruel.github.io/teaching.html">Teaching</a>
-</li>
-<li class="divider"></li>
-<li>
-<a href="http://jmbruel.github.io/scientific.html">Animation</a>
-</li>
-<li class="divider"></li>
-<li>
-<a href="http://jmbruel.github.io/professional.html">Professional</a>
-</li>
-<li class="divider"></li>
-<li>
-<a href="http://jmbruel.github.io/bio.html">Biography</a>
-</li>
-<li class="divider"></li>
-<li>
-<a href="http://jmbruel.github.io/fun.html">Fun</a>
-</li>
-<li class="divider"></li>
-<li>
-<a href="/about.html">About</a>
-</li>
-</li>
-</ul>
-</section>
-</nav>
-<div class="row" id="content">
-<div class="large-12 columns">
-<!--=========================================================-->
-<h2>About this web site</h2>
-<!--=========================================================-->
-<div>
-This web site has been developped using the following (open and free) tools:
-<ul>
-	<li>The French <a href="http://www.c.la/">c.la</a> redirection web site</li>
-	<li>The <a href="http://www.heroku.com/">Heroku</a> cloud application plateform</li>
-	<li>The <a href="http://git-scm.com/">git</a> version control system</li>
-	<li>The <a href="http://rubyonrails.org/">Ruby on Rails</a> framework (special thanks to the great
-	      Michael Hartl' <a class="noicon" href="http://www.railstutorial.org/">tutorial</a>)</li>
-	<li>The <a href="http://www.blueprintcss.org/">Blueprint</a> CSS library</li>
-</ul>
-</div>
 
-</div>
-</div>
-<footer class="row" style="max-width: 100%">
-<hr>
-<div class="large-8 columns">
-<p style="margin-bottom: .75em">
-&copy; ACDC, <a href="mailto:bruel@irit.fr">JMB</a>, 2015-10-04 21:43:48 +0200
-Built on <a href='http://foundation.zurb.com'>Foundation</a>. Baked by <a href='http://awestruct.org'>Awestruct</a>.
-</p>
-</div>
-<div class="large-4 columns">
-<ul class="inline-list right">
-<li>
-<a href="http://jmbruel.github.io/">Home</a>
-</li>
-<li>
-<a href="http://jmbruel.github.io/contact.html">Contact</a>
-</li>
+
+<body class="wrap">
+  <header role="banner">
+  <nav class="mobile-nav show-on-mobiles">
+    <ul>
+  <li class="">
+    <a href="/">Home</a>
+  </li>
+  <li class="current">
+    <a href="/docs/home/">Doc<span class="show-on-mobiles">s</span><span class="hide-on-mobiles">umentation</span></a>
+  </li>
+  <li class="">
+    <a href="/news/">News</a>
+  </li>
+  <li>
+    <a href="/help/">Help</a>
+  </li>
+  <li>
+    <a href="https://github.com/jekyll/jekyll"><span class="hide-on-mobiles">View on </span>GitHub</a>
+  </li>
 </ul>
-</div>
-</footer>
-<script>
-document.write('<script src=' + ('__proto__' in {} ? 'http://jmbruel.github.io/javascripts/vendor/zepto' : 'http://jmbruel.github.io/javascripts/vendor/jquery') + '.js><\/script>')
+
+  <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<span class=\"sr-only\">Permalink</span><i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
 </script>
-<script src="http://jmbruel.github.io/javascripts/foundation/foundation.js"></script>
-<script src="http://jmbruel.github.io/javascripts/foundation/foundation.topbar.js"></script>
-<script>
-$(document).foundation()
-</script>
+
+
+  <!-- Gauges (http://gaug.es/) -->
+  <script>
+    var _gauges = _gauges || [];
+    (function() {
+      var t   = document.createElement('script');
+      t.type  = 'text/javascript';
+      t.async = true;
+      t.id    = 'gauges-tracker';
+      t.setAttribute('data-site-id', '503c5af6613f5d0f19000027');
+      t.src = '//secure.gaug.es/track.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(t, s);
+    })();
+  </script>
+
+
+
+  <!-- Google Analytics (http://google.com/analytics) -->
+  <script>
+    !function(j,e,k,y,l,L){j.GoogleAnalyticsObject=y,j[y]||(j[y]=function(){
+    (j[y].q=j[y].q||[]).push(arguments)}),j[y].l=+new Date,l=e.createElement(k),
+    L=e.getElementsByTagName(k)[0],l.src='//www.google-analytics.com/analytics.js',
+    L.parentNode.insertBefore(l,L)}(window,document,'script','ga');
+
+    ga('create', 'UA-50755011-1', 'jekyllrb.com');
+    ga('send', 'pageview');
+
+  </script>
+
+
+
 </body>
 </html>
