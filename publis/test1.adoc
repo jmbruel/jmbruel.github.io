@@ -1,6 +1,0 @@
-= Docs Workshop at OSCON 2013
-Author Name
-2013-07-22
-:awestruct-tags: [conference, oscon]
-
-Content of first post, reporting from OSCON!
