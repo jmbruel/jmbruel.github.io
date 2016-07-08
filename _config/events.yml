@@ -1,0 +1,38 @@
+# THanks to https://github.com/droolsjbpm/optaplanner-website for the inspiration
+# To add a talk in the GitHub user interface, click on the Edit button at the top right which will submit a pull request.
+#
+# Available properties per talk
+#  eventId: Should be in format "yyyymmdd-suffix". The yyyymmdd is the date
+#  eventOrganization: Name of the conference or organizer
+#  location: Should be in format "city, country" or "city, state, country"
+#  date: Must be in format "yyyy-mm-dd". If multiple days cover our project, only note the first day
+#  title: (optional) Session title (without the conference or organizer name). If CFP not yet accepted, temporarily do not include.
+#  url: Link to the event page itself. If CFP not yet accepted, temporarily link the event organization itself.
+#  slides: a link to the slides themselves
+#
+# Order events by date.
+# Remove past events.
+
+- eventId: 20151105-Workshop
+  eventOrganization: Forum ORAP
+  location: CNRS, Paris, France
+  date: 2015-11-05
+  datefin: 2015-11-05
+  title: L’évolution des technologies autour du HPC
+  url: http://orap.irisa.fr/?page_id=36
+
+- eventId: 20151103-Workshop
+  eventOrganization: Journées DEVLOG
+  location: UPS, Toulouse, France
+  date: 2015-11-03
+  datefin: 2015-11-03
+  title: IDM'2015
+  url: http://devlog.cnrs.fr/idm2015
+
+- eventId: 20150927-Conference
+  eventOrganization: International ACM/IEEE Conference
+  location: Ottawa, ON, Canada
+  date: 2015-09-27
+  datefin: 2015-10-02
+  title: MODELS'2015
+  url: http://www.modelsconference.org
