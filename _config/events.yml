@@ -1,4 +1,4 @@
-# THanks to https://github.com/droolsjbpm/optaplanner-website for the inspiration
+# Thanks to https://github.com/droolsjbpm/optaplanner-website for the inspiration
 # To add a talk in the GitHub user interface, click on the Edit button at the top right which will submit a pull request.
 #
 # Available properties per talk
@@ -35,4 +35,36 @@
   date: 2015-09-27
   datefin: 2015-10-02
   title: MODELS'2015
-  url: http://www.modelsconference.org
+  url: http://cruise.eecs.uottawa.ca/models2015/
+
+- eventId: 20161002-Conference
+  eventOrganization: International ACM/IEEE Conference
+  location: Saint-Malo, France
+  date: 2016-10-02
+  datefin: 2016-10-07
+  title: MODELS'2016
+  url: http://models2016.irisa.fr/
+
+- eventId: 20170917-Conference
+  eventOrganization: International ACM/IEEE Conference
+  location: Austin, TX, USA
+  date: 2017-09-17
+  datefin: 2017-09-22
+  title: MODELS'2017
+  url: https://www.cs.utexas.edu/models2017
+
+- eventId: 20170904-Conference
+  eventOrganization: International IEEE Conference
+  location: Lisbon, Portugal
+  date: 2017-09-04
+  datefin: 2017-09-08
+  title: RE'2017
+  url: http://re2017.org/
+
+- eventId: 20171023-Conference
+  eventOrganization: ACM SIGPLAN International Conference
+  location: Vancouver, Canada
+  date: 2017-10-23
+  datefin: 2017-10-24
+  title: SLE'2017
+  url: http://www.sleconf.org/2017/
