@@ -50,5 +50,5 @@ gem 'github-pages'
 # gem 'RedCloth', '>= 4.2.9'                              # If using Textile
 # gem 'slim', '>= 1.3.6'                                  # If using slim instead of haml
 # gem 'kramdown', '>= 0.14.2'                             # If using Markdown
-# gem 'uglifier', '>= 1.3.0'                              # If using the minify transformer
-# gem 'htmlcompressor', '>= 0.0.3'                        # If using the minify transformer
+gem 'uglifier', '>= 1.3.0'                              # If using the minify transformer
+gem 'htmlcompressor', '>= 0.0.3'                        # If using the minify transformer
